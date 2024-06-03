@@ -40,6 +40,8 @@ jobs:
         uses: veracode/veracode-sca@DXS-441
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          create-issues: false  
+          create-issues: false
+          recursive: true
+          allow-dirty: true
 #           fail-on-cvss: 1
 #           min-cvss-for-issue: 1
