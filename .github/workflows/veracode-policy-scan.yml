@@ -70,8 +70,8 @@ jobs:
 
       # run the policy scan action
       - name: Veracode Upload and Scan Action Step
-        uses: veracode/uploadandscan-action@DXS-441
-        # uses: relaxnow/uploadandscan-action@bugfix/improve-java-wrapper
+        # uses: veracode/uploadandscan-action@DXS-441
+        uses: relaxnow/uploadandscan-action@bugfix/improve-java-wrapper
         id: upload_and_scan
         with:
           appname: ${{ inputs.profile_name }}
