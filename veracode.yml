@@ -1,5 +1,3 @@
-ruby_support:
-  ruby_version: 3.3.4
 veracode_static_scan:
   push:
     trigger: true
@@ -39,6 +37,7 @@ veracode_static_scan:
     trigger: false
     commands:
       - "Veracode Static Scan"
+  ruby_version: 3.3.4
 
 veracode_sca_scan:
   push:
