@@ -1,3 +1,5 @@
+ruby_support:
+  ruby_version: 3.3.4
 veracode_static_scan:
   push:
     trigger: true
